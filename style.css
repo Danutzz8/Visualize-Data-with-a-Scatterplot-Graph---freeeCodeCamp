@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(130,205,221,1) 0%, rgba(255,247,153,1) 90% );
+    min-height: 100vh;
+}
+
+svg {
+    background-color: #777;
+    
+}
+
+#tooltip {
+    visibility: hidden;
+    width: auto;
+    height: auto;
+}
+
+ .span-orange {
+    
+    background-color: orange;
+    width: 1rem;
+    height: 1rem;
+    padding: 0 .5rem 0 .5rem;
+    margin-right: .5rem;
+ }
+
+ .span-green {
+    
+    background-color: green;
+    width: 1rem;
+    height: 1rem;
+    padding: 0 .5rem 0 .5rem;
+    margin-right: .5rem;
+ }
